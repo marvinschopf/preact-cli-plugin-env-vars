@@ -8,13 +8,13 @@ Consume variables in your environment with the Preact CLI.
 ## Installation
 
 ```
-$ npm i -D preact-cli-plugin-env-vars
+$ yarn add @marvman/preact-cli-plugin-env-vars
 ```
 
 And include in your project by creating a `preact.config.js`:
 
 ```js
-import envVars from "preact-cli-plugin-env-vars";
+import envVars from "@marvman/preact-cli-plugin-env-vars";
 
 export default function (config, env, helpers) {
 	envVars(config, env, helpers);
