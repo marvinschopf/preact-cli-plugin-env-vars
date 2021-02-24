@@ -2,8 +2,7 @@
 
 Consume variables in your environment with the Preact CLI.
 
-[![NPM version](https://img.shields.io/npm/v/preact-cli-plugin-env-vars.svg)](https://www.npmjs.com/package/preact-cli-plugin-env-vars)
-[![Build Status](https://travis-ci.org/robinvdvleuten/preact-cli-plugin-env-vars.svg?branch=master)](https://travis-ci.org/robinvdvleuten/preact-cli-plugin-env-vars)
+[![NPM version](https://img.shields.io/npm/v/@marvman/preact-cli-plugin-env-vars.svg)](https://www.npmjs.com/package/preact-cli-plugin-env-vars) [![Node.js CI](https://github.com/marvinschopf/preact-cli-plugin-env-vars/actions/workflows/node.js.yml/badge.svg)](https://github.com/marvinschopf/preact-cli-plugin-env-vars/actions/workflows/node.js.yml)
 
 ## Installation
 
