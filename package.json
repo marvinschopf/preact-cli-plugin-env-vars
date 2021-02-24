@@ -22,7 +22,7 @@
 	},
 	"homepage": "https://github.com/robinvdvleuten/preact-cli-plugin-env-vars#readme",
 	"dependencies": {
-		"dotenv": "^4.0.0"
+		"dotenv": "^8.2.0"
 	},
 	"devDependencies": {
 		"prettier": "^2.2.1",
