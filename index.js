@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const resolveEnvVars = require('resolve-env-vars');
+const resolveEnvVars = require('./resolveEnvVars');
 const { DefinePlugin } = require('webpack');
 
 module.exports = (config, env, helpers) => {
