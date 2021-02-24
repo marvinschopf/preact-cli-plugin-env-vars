@@ -14,7 +14,7 @@
 		"lib"
 	],
 	"scripts": {
-		"test": "xo"
+		"test": "prettier --write --use-tabs *.js *.json **/*.js **/*.json **/*.yml *.yml"
 	},
 	"xo": {
 		"esnext": true,
@@ -36,7 +36,7 @@
 		"dotenv": "^4.0.0"
 	},
 	"devDependencies": {
-		"webpack": "^2.3.3",
-		"xo": "^0.18.2"
+		"prettier": "^2.2.1",
+		"webpack": "^2.3.3"
 	}
 }
