@@ -1,42 +1,42 @@
 {
-  "name": "preact-cli-plugin-env-vars",
-  "version": "1.2.1",
-  "description": "Consume variables in your environment with the Preact CLI",
-  "license": "MIT",
-  "author": "Robin van der Vleuten <robin@webstronauts.co>",
-  "main": "index.js",
-  "keywords": [
-    "preact",
-    "plugin",
-    "env"
-  ],
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "xo"
-  },
-  "xo": {
-    "esnext": true,
-    "space": true,
-    "semicolon": true,
-    "rules": {
-      "object-curly-spacing": [
-        "error",
-        "always"
-      ]
-    }
-  },
-  "repository": "robinvdvleuten/preact-cli-plugin-env-vars",
-  "bugs": {
-    "url": "https://github.com/robinvdvleuten/preact-cli-plugin-env-vars/issues"
-  },
-  "homepage": "https://github.com/robinvdvleuten/preact-cli-plugin-env-vars#readme",
-  "dependencies": {
-    "dotenv": "^4.0.0"
-  },
-  "devDependencies": {
-    "webpack": "^2.3.3",
-    "xo": "^0.18.2"
-  }
+	"name": "preact-cli-plugin-env-vars",
+	"version": "1.2.1",
+	"description": "Consume variables in your environment with the Preact CLI",
+	"license": "MIT",
+	"author": "Robin van der Vleuten <robin@webstronauts.co>",
+	"main": "index.js",
+	"keywords": [
+		"preact",
+		"plugin",
+		"env"
+	],
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"test": "xo"
+	},
+	"xo": {
+		"esnext": true,
+		"space": true,
+		"semicolon": true,
+		"rules": {
+			"object-curly-spacing": [
+				"error",
+				"always"
+			]
+		}
+	},
+	"repository": "robinvdvleuten/preact-cli-plugin-env-vars",
+	"bugs": {
+		"url": "https://github.com/robinvdvleuten/preact-cli-plugin-env-vars/issues"
+	},
+	"homepage": "https://github.com/robinvdvleuten/preact-cli-plugin-env-vars#readme",
+	"dependencies": {
+		"dotenv": "^4.0.0"
+	},
+	"devDependencies": {
+		"webpack": "^2.3.3",
+		"xo": "^0.18.2"
+	}
 }
