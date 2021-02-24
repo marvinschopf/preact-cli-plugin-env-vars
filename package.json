@@ -16,17 +16,6 @@
 	"scripts": {
 		"test": "prettier --write --use-tabs *.js *.json **/*.js **/*.json **/*.yml *.yml"
 	},
-	"xo": {
-		"esnext": true,
-		"space": true,
-		"semicolon": true,
-		"rules": {
-			"object-curly-spacing": [
-				"error",
-				"always"
-			]
-		}
-	},
 	"repository": "robinvdvleuten/preact-cli-plugin-env-vars",
 	"bugs": {
 		"url": "https://github.com/robinvdvleuten/preact-cli-plugin-env-vars/issues"
