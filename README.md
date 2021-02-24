@@ -43,4 +43,4 @@ Please refer to the [dotenv documentation](https://github.com/motdotla/dotenv) f
 
 ## License
 
-MIT © [Robin van der Vleuten](https://www.robinvdvleuten.nl)
+MIT © [Marvin Schopf](https://www.marvinschopf.com), [Robin van der Vleuten](https://www.robinvdvleuten.nl)
