@@ -15,7 +15,11 @@
 		"env"
 	],
 	"files": [
-		"lib"
+		"README.md",
+		"LICENSE",
+		"index.js",
+		"package.json",
+		"resolve-env-vars.js"
 	],
 	"scripts": {
 		"test": "prettier --write --use-tabs *.js *.json **/*.js **/*.json **/*.yml *.yml *.md **/*.md"
