@@ -14,7 +14,7 @@
 		"lib"
 	],
 	"scripts": {
-		"test": "prettier --write --use-tabs *.js *.json **/*.js **/*.json **/*.yml *.yml"
+		"test": "prettier --write --use-tabs *.js *.json **/*.js **/*.json **/*.yml *.yml *.md **/*.md"
 	},
 	"repository": "robinvdvleuten/preact-cli-plugin-env-vars",
 	"bugs": {
