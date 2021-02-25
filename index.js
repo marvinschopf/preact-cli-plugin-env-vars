@@ -4,7 +4,7 @@ const resolveEnvVars = require("./resolve-env-vars");
 const { DefinePlugin } = require("webpack");
 
 module.exports = (config, env, helpers) => {
-	const { stringified, raw } = resolveEnvVars("");
+	const { stringified, raw } = resolveEnvVars("APP_");
 	config.plugins.push(new DefinePlugin(stringified));
 
 	const { plugin: htmlPlugin } =
