@@ -1,0 +1,47 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 5.24.3
+    - 5.24.4
+    - 5.25.1
+    - 5.26.0
+    - 5.26.2
+    - 5.26.3
+    - 5.27.1
+    - 5.27.2
+    - 5.28.0
+    - 5.30.0
+    - 5.31.0
+    - 5.31.2
+    - 5.32.0
+    - 5.33.2
+    - 5.34.0
+    - 5.35.0
+    - 5.35.1
+    - 5.36.0
+  - dependency-name: sshpk
+    versions:
+    - 1.16.1
+  - dependency-name: fstream
+    versions:
+    - 1.0.12
+  - dependency-name: xo
+    versions:
+    - 0.38.1
+  - dependency-name: js-yaml
+    versions:
+    - 3.14.1
+  - dependency-name: is-my-json-valid
+    versions:
+    - 2.20.5
+  - dependency-name: dot-prop
+    versions:
+    - 4.2.1
