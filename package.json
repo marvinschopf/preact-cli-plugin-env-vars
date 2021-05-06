@@ -30,7 +30,7 @@
 	},
 	"homepage": "https://github.com/marvinschopf/preact-cli-plugin-env-vars#readme",
 	"dependencies": {
-		"dotenv": "^8.2.0"
+		"dotenv": "^9.0.0"
 	},
 	"devDependencies": {
 		"prettier": "^2.2.1",
